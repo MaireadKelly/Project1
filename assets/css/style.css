@@ -51,6 +51,11 @@ menu li {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/*NAV BAR STYLES WITH DROPDOWN TOGGLE*/
+nav {
+    position: relative;
+    background-color: #ffffff;
+}
 /*MAIN CONTENT*/
 main {
     background-color: #ffc0cb;
