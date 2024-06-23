@@ -1,0 +1,20 @@
+/* Asterisk wildcard selector added to override default browser styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER*/
+header {
+    background-color: #00ffff;
+}
+
+/*BODY*/
+body {
+    background-color: #ffc0cb;
+}
+/*FOOTER*/
+footer {
+    background-color: #ffe4c4;
+}
