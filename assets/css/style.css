@@ -207,7 +207,7 @@ main {
 
 /*General form styling */
 #joinus { 
-    background: url('../images/competition.jpg') no-repeat center/cover;
+    background-color: #ffffff;
     padding: 20px; 
     max-width: 600px; 
     margin: 20px auto;
@@ -265,17 +265,19 @@ input[type="email"] {
 
         /* Basic styles for the club logo */
 #clublogo {
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /*text-align: center;
+    padding: 20px;*/
 }
 
 #clublogo img {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
