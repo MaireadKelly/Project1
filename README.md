@@ -20,7 +20,8 @@ Attach wireframes in this section
 I use google font types Loto and Oswald fonts.  I hgot this inspiration from Love Running.  I find they are easy to read and are stylish.
 
 ### Colour Scheme
-rgb(241, 109 , 147, .7); #ffffff  , I chose these colors as they contrast welll for ease of reading.
+rgb(241, 109 , 147, .7);
+#ffffff  , I chose these colors as they contrast welll for ease of reading.
 
 ## Features:
 Explain your features on the website,(navigation, pages, links, forms, input fields, CRUD....)
@@ -54,7 +55,8 @@ GitHub is used to store the projects code after being pushed from Git.
 Important part of your README!!!
 
 ### Google's Lighthouse Performance
-Screenshots of certain pages and scores (mobile and desktop)
+![mobile](../Project1/assets/images/readmeimages/lighthouse1.png)
+![desktop](../Project1/assets/images/readmeimages/lighthouse2.png)
 
 ### Browser Compatibility
 Check compatability with different browsers
@@ -64,7 +66,10 @@ Check compatability with different browsers
 Screenshots of the responsivness, pick few devices
 
 ### Code Validation
-Validate your code HTML, CSS files display screenshots
+![HTMLindex](../Project1/assets/images/readmeimages/valhtml1.png)
+![HTMLgallery](../Project1/assets/ima)
+![HTMLjoinus](../Project1/assets/imag)
+![CSS](../Project1/assets/imag)
 
 ### Testing user stories
 Test all your user stories, you an create table 
