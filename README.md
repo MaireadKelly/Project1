@@ -7,36 +7,31 @@ Love Archery
 [Click Here To Visit Live Site]( add live link of the project here)
 
 
-## Table Of Contents:
-1. [Design & Planning](#design-&-planning)
-    * [User Stories](#user-stories)
-    * [Wireframes](#wireframes)
-    * [Typography](#typography)
-    * [Color Scheme](#color-scheme)
-2. [Features](#features)
-3. [Future features](#future-features)
-4. [Technologies Used](#technologies-used)
-5. [Testing](#testing)
-6. [Bugs](#bugs)
-7. [Deployment](#deployment)
-8. [Credits](#credits)
-9. [Acknowledgments](#acknowledgments)
-
-
-
 ## Design & Planning:
 
-### User Stories
-Write your user stories in this section
+###User Stories
+ -As a user I want to be able to navigate the site easily
+ -I want to be able find out when and where it's on
+ -I want to be able to sign up for a class
+
 ### Wireframes
 Attach wireframes in this section
 ### Typography
-Explain fonts you've used for your project
+I use google font types Loto and Oswald fonts.  I hgot this inspiration from Love Running.  I find they are easy to read and are stylish.
+
 ### Colour Scheme
-Screenshoot of the colour scheme for your project
+rgb(241, 109 , 147, .7); #ffffff  , I chose these colors as they contrast welll for ease of reading.
 
 ## Features:
 Explain your features on the website,(navigation, pages, links, forms, input fields, CRUD....)
+###Navigation
+
+###Header
+
+###Benefits
+
+
+
 
 ## Future features
 Add future features you would like to implement on your site 404 page, confirmation page, login system.....
