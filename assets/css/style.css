@@ -159,7 +159,7 @@ main {
 
 /* Meetup Times section */
 #times {
-    background: url('../images/lineup.jpg') no-repeat center/cover;
+    background: url('../images/reasons.jpg') no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
@@ -185,21 +185,29 @@ main {
 
 /*Gallery styles*/
 
+#gallery {
+    width: 90%;
+    margin: 40px auto;
+}
+
+#photos {
+    line-height: 0;
+    
+}
 #photos img {
-    width: 100px;
-    line-height: 1em;
+    width: 100%;
+    /*margin: 5px;*/
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-}
-#photos {
-    line-height: 0;
-        
+    /*padding: 0;*/
+    
 }
 
 /*General form styling */
-#joinus { background-color: #F9F9F9;
+#joinus { 
+    background: url('../images/competition.jpg') no-repeat center/cover;
     padding: 20px; 
     max-width: 600px; 
     margin: 20px auto;
@@ -255,6 +263,21 @@ input[type="email"] {
             background-color: #C094B1; 
         }
 
+        /* Basic styles for the club logo */
+#clublogo {
+    text-align: center;
+    padding: 20px;
+}
+
+#clublogo img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -270,13 +293,12 @@ input[type="email"] {
     color: #3a3a3a;
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Media query: tablets and larger (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
-        column-gap: 0;
+        column-gap: 10px;
     }
-    
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -340,6 +362,13 @@ input[type="email"] {
 #photos {
     column-count: 3;
 }
+#clublogo {
+    padding: 40px;
+}
+
+#clublogo img {
+    max-width: 80%; /* Adjust as needed to suit larger screens */
+}
 }
 
 
@@ -348,9 +377,6 @@ input[type="email"] {
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
-    }
-    #photos {
-        column-count: 4;
     }
 }
 
@@ -380,5 +406,12 @@ input[type="email"] {
 
     #benefits-physical > div {
         align-self: flex-end;
+    }
+    #clublogo {
+        padding: 60px;
+    }
+
+    #clublogo img {
+        max-width: 60%; /* Adjust as needed to suit larger screens */
     }
 }
