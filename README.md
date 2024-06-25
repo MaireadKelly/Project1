@@ -1,11 +1,8 @@
 Love Archery
 
+![Am i responsive image](../Project1/assets/images/readmeimages/am-i-responsive.png)  
 
- 
-![Am i responsive image](add file path of image here)  
-
-[Click Here To Visit Live Site]( add live link of the project here)
-
+[Click Here To Visit Live Site]( https://maireadkelly.github.io/Project1/)
 
 ## Design & Planning:
 
@@ -16,44 +13,52 @@ Love Archery
 
 ### Wireframes
 Attach wireframes in this section
+
 ### Typography
-I use google font types Loto and Oswald fonts.  I hgot this inspiration from Love Running.  I find they are easy to read and are stylish.
+I used google font types Loto and Oswald fonts.  I got my inspiration for this from the Love Running walkthrough project.  I find they are easy to read while still being stylish.
 
 ### Colour Scheme
-rgb(241, 109 , 147, .7);
-#ffffff  , I chose these colors as they contrast welll for ease of reading.
+***rgb(241, 109 , 147, .7);***
+#ffffff  , I chose these colors as they contrast well for ease of reading.
 
 ## Features:
-Explain your features on the website,(navigation, pages, links, forms, input fields, CRUD....)
 ###Navigation
-
+The navigation bar is fixed to the top of the screen and has active links to the gallery and join us form pages.
+**There is also a logo on the left/right side of the navigation bar, which is linked to the home page***
 ###Header
+The header has a her image of an archer taking aim with a golden sunset in the background.  It also has the club name and location superimposed on the image.
 
-###Benefits
+###Benefits:
+I have included an overall view of the benefits (both physical and mental) of archery.  Some of which may be surprising to many people.
 
+###Gallery
+In the gallery I wanted to show how archery is a sport that is suitable for people of all ages and abilities.  That it can be enjoyed as a recreational, and sociable outlet, but also has a competitive aspect for those who prefer more of a challenge, from local and national competitions to Olympic and Paralympic levels.
 
-
+###Footer
+The footer has navigetion links to the most popular social media sites, namely
+Facebook, Twitter, Instagram and YouTube
 
 ## Future features
-Add future features you would like to implement on your site 404 page, confirmation page, login system.....
+In the future I would like to add some features to make it possible for people to sign up online, not just request someone to contact them.
+I would also like to introduce the ability to pay for beginners to pay for their course online and save the need for them to bring money to their first class.  Another feature would to make it possible for current members to renew online
 
 ## Technologies Used
 - HTML5 
 - CSS3
+
  ### Frameworks, Libraries & Programes Used
 - #### [Google fonts](https://fonts.google.com/knowledge)
-Google fonts were used to import the 'Dosis' font into the style.css file which is used on all pages throughout the project
+Google fonts were used to import the ***'Dosis'*** font into the style.css file which is used on all pages throughout the project
  - #### [Font Awesome](https://fontawesome.com/)
 Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
  - #### [Git](https://gitpod.io/)
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
   - #### [GitHub](https://github.com/)
 GitHub is used to store the projects code after being pushed from Git.
- - #### [Balsamic](https://balsamiq.com/wireframes/?gclid=Cj0KCQiA14WdBhD8ARIsANao07g6CkndNmxQPlHP92mM3VQBwb6lbQIg5FPinhmNFxWsAnM7BpA_PukaAldMEALw_wcB)
 
 ## Testing
-Important part of your README!!!
-
+I tested compatability on the following browsers:
+Google Chrome ()
 ### Google's Lighthouse Performance
 ![mobile](../Project1/assets/images/readmeimages/lighthouse1.png)
 ![desktop](../Project1/assets/images/readmeimages/lighthouse2.png)
@@ -67,7 +72,7 @@ Screenshots of the responsivness, pick few devices
 
 ### Code Validation
 ![HTMLindex](../Project1/assets/images/readmeimages/valhtml1.png)
-![HTMLgallery](../Project1/assets/ima)
+![HTMLgallery](../Project1/assets/images/readmeimages/galleryhtml.png)
 ![HTMLjoinus](../Project1/assets/imag)
 ![CSS](../Project1/assets/imag)
 
@@ -91,7 +96,7 @@ List of bugs and how did you fix them
       - Under "Source", click the dropdown called "None" and select "Master Branch".
       - The page will automatically refresh.
       - Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
-      - live link for the page can be found here [Lake dippers](https://tmarkec.github.io/Lake-dippers/)
+      - live link for the page can be found here [Project1](https://maireadkelly.github.io/Project1/index.html)
 - Forking the GitHub Repository
     - By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps
      - Log in to GitHub and locate the GitHub Repository
@@ -108,6 +113,6 @@ List of bugs and how did you fix them
    - Press Enter. Your local clone will be created.
 
    ## Credits
-    In this section credit any code, images, text or design that is not custom
+  I got my code from a number of sources such as the love running project.  I also used resources such as W3Schools and google, along with help from fellow classmates and chatGPT.  I got my main inspiration from the love running project. 
 
    ## Acknowledgments
