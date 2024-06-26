@@ -22,16 +22,16 @@ I used google font types Loto and Oswald fonts.  I got my inspiration for this f
 #ffffff  , I chose these colors as they contrast well for ease of reading.
 
 ## Features:
-###Navigation
+### Navigation
 The navigation bar is fixed to the top of the screen and has active links to the gallery and join us form pages.
 **There is also a logo on the left/right side of the navigation bar, which is linked to the home page***
-###Header
+### Header
 The header has a her image of an archer taking aim with a golden sunset in the background.  It also has the club name and location superimposed on the image.
 
-###Benefits:
+### Benefits:
 I have included an overall view of the benefits (both physical and mental) of archery.  Some of which may be surprising to many people.
 
-###Gallery
+### Gallery
 In the gallery I wanted to show how archery is a sport that is suitable for people of all ages and abilities.  That it can be enjoyed as a recreational, and sociable outlet, but also has a competitive aspect for those who prefer more of a challenge, from local and national competitions to Olympic and Paralympic levels.
 
 ###Footer
@@ -116,3 +116,4 @@ List of bugs and how did you fix them
   I got my code from a number of sources such as the love running project.  I also used resources such as W3Schools and google, along with help from fellow classmates and chatGPT.  I got my main inspiration from the love running project. 
 
    ## Acknowledgments
+  
