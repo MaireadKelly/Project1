@@ -1,8 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-<style>
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;500;600;700;800&display=swap');
-</style>
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -141,10 +139,20 @@ main {
     border: 1px solid black;
     border-radius:10px ;
 }
+
+#benefits-mental {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius:10px ;
+}
 #benefits-physical>div,
 #benefits-mental>div {
     line-height: 20px;
     margin-bottom: 20px;
+    
 }
 
 #benefits p {
@@ -201,15 +209,19 @@ main {
 
 /*Gallery styles*/
 
-#gallery {
-    width: 90%;
-    margin: 40px auto;
-}
 
-#photos {
-    line-height: 0;
-    
+#gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
 }
+#photos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+}
+    
 #photos img {
     width: 100%;
     /*margin: 5px;*/
@@ -372,7 +384,7 @@ input[type="email"] {
         flex-direction: column;
         width: 100%;
     }
-
+  
     #benefits-physical>div,
     #benefits-mental>div {
     width: 75%;
@@ -409,7 +421,7 @@ input[type="email"] {
         display: flex;
         flex-direction: row;
     }
-
+    
     #benefits > div {
         flex: 1;
     }
