@@ -221,26 +221,17 @@ main {
         justify-content: center;
         gap: 20px;
 }
- /*   
-#photos img {
-    width: 100%;
-    /*margin: 5px;*/
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    /*padding: 0;*/
- 
 
-/*General form styling */
-#joinus { 
-    background-color: #ffffff;
+/* Form styling */
+#joinus {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
     padding: 20px; 
     max-width: 600px; 
     margin: 20px auto;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    border-radius: 10px; } 
-    
+    border-radius: 10px;
+} 
+
 #joinus h2 { 
     text-align: center; 
     margin-bottom: 20px; 
@@ -248,15 +239,13 @@ main {
     color: #333; 
 } 
 
-/* .joinus {
-    background-color: ;
-} */
-label{ 
+label { 
     display: block; 
     margin-bottom: 5px; 
     font-weight: bold; 
     color: #333; 
 } 
+
 input[type="text"], 
 input[type="email"] { 
     width: 100%; 
@@ -267,45 +256,37 @@ input[type="email"] {
     font-size: 1rem; 
     box-sizing: border-box; 
 } 
+
 .radio-buttons { 
     display: flex; 
     justify-content: space-between; 
-    margin-bottom: 20px; } 
-    .radio-buttons div { 
-        flex: 1; display: flex; 
-        align-items: center; 
-        gap: 5px; } 
-        button[type="submit"] { 
-            display: block; width: 100%; 
-            padding: 10px; 
-            background-color: #D1B1C8; 
-            border: none; 
-            border-radius: 5px; 
-            font-size: 1rem; 
-            color: #fff; 
-            cursor: pointer; 
-            transition: background-color 0.3s ease;
-        } 
-        button[type="submit"]:hover { 
-            background-color: #C094B1; 
-        }
+    margin-bottom: 20px; 
+} 
 
-        /* Basic styles for the club logo */
-#clublogo {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    /*text-align: center;
-    padding: 20px;*/
-}
+.radio-buttons div { 
+    flex: 1; 
+    display: flex; 
+    align-items: center; 
+    gap: 5px; 
+} 
 
-#clublogo img {
-    max-width: 150px;
-    max-height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+button[type="submit"] { 
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    background-color: #D1B1C8; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 1rem; 
+    color: #fff; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+} 
+
+button[type="submit"]:hover { 
+    background-color: #C094B1; 
 }
+ 
 
 /* Footer */
 #social-networks {
