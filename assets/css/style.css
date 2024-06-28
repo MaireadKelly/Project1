@@ -432,3 +432,9 @@ button[type="submit"]:hover {
         max-width: 60%; /* Adjust as needed to suit larger screens */
     }
 }
+#clublogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Optional: add padding if needed */
+}

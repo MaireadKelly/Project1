@@ -1,6 +1,6 @@
 Love Archery
 
-![Am i responsive image](../Project1/assets/images/readmeimages/am-i-responsive.png)  
+![Am i responsive image](../Project1/assets/images/readmeimages/amiresponsive.png)  
 
 [Click Here To Visit Live Site]( https://maireadkelly.github.io/Project1/)
 
