@@ -47,8 +47,13 @@ header a {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+   /* letter-spacing: 4px;*/
     list-style-type: none;
+    font-family: 'K2D', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffeb99;
+    font-weight: bolder;
 }
 
 #menu > li {
@@ -208,8 +213,6 @@ main {
 }
 
 /*Gallery styles*/
-
-
 #gallery {
     max-width: 1200px;
     margin: 0 auto;
