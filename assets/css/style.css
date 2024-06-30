@@ -106,7 +106,7 @@ main {
 
 #cover-text {
     /* Final rgba value makes the opacity, semi-transparent */
-    background-color: rgb(241, 109 , 147, .7);
+    background-color: rgb(209, 177, 200, .7);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -222,9 +222,10 @@ main {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 20px;
-}
+        gap: 20px; 
+    }
 
+    
 /* Form styling */
 #joinus {
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
@@ -365,6 +366,7 @@ button[type="submit"]:hover {
     #benefits-mental {
         display: flex;
         flex-direction: column;
+        align-items: center;
         width: 100%;
     }
   
@@ -380,11 +382,20 @@ button[type="submit"]:hover {
     column-count: 3;
 }
 #clublogo {
-    padding: 40px;
+    /*padding: 40px;
+    padding-left: 500px;
+    border-right-width: 150px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Optional: add padding if needed */
 }
 
 #clublogo img {
-    max-width: 80%; /* Adjust as needed to suit larger screens */
+   /* max-width: 80%; /* Adjust as needed to suit larger screens */
+    /*padding-left: 75px;*/
+    max-width: 100%;
+    height: auto; /* Maintains aspect ratio */
 }
 }
 
@@ -426,9 +437,17 @@ button[type="submit"]:hover {
     }
     #clublogo {
         padding: 60px;
+        padding-left: 75px;
+       
     }
 
     #clublogo img {
         max-width: 60%; /* Adjust as needed to suit larger screens */
+        padding-left: 75px;
+        
     }
+}
+
+.hidden-heading {
+    display: none;
 }
