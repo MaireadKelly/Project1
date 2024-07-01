@@ -310,12 +310,25 @@ button[type="submit"]:hover {
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.5), 0 16px 20px 0 rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+.join-us-img {
+    max-width: 10%;
+}
 
 /* Media query: tablets and larger (576px and up) */
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
     #photos {
         column-count: 2;
         column-gap: 10px;
+    }
+    #clublogo {
+        text-align: center;
+    }
+    
+    #clublogo img {
+        max-width: 40%; /* Adjust as needed to suit larger screens */
+        max-height: 40%;
+       
+        
     }
 }
 
@@ -386,6 +399,7 @@ button[type="submit"]:hover {
     padding-left: 500px;
     border-right-width: 150px;*/
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px; /* Optional: add padding if needed */
@@ -394,7 +408,7 @@ button[type="submit"]:hover {
 #clublogo img {
    /* max-width: 80%; /* Adjust as needed to suit larger screens */
     /*padding-left: 75px;*/
-    max-width: 100%;
+    max-width: 75%;
     height: auto; /* Maintains aspect ratio */
 }
 }
@@ -437,13 +451,14 @@ button[type="submit"]:hover {
     }
     #clublogo {
         padding: 60px;
-        padding-left: 75px;
+    
        
     }
 
     #clublogo img {
-        max-width: 60%; /* Adjust as needed to suit larger screens */
-        padding-left: 75px;
+        max-width: 50%; /* Adjust as needed to suit larger screens */
+        max-height: 50%;
+    
         
     }
 }

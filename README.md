@@ -100,7 +100,7 @@ Screenshots of the responsivness,
 ![CSS](assets/images/readmeimages/valcss.png)
 
 ### Testing user stories
-###User Stories
+### User Stories
  -As a user I want to be able to navigate the site easily
  tested navbar- pass
  -I want to be able find out when and where it's on
