@@ -66,7 +66,7 @@ Git was used for version control by utilizing the Gitpod terminal to commit to G
   - #### [GitHub](https://github.com/)
 GitHub is used to store the projects code after being pushed from Git.
 ChatGPT was used to help resolve issues arising while styling the gallery in particular
-
+Diffchecker, was used to help me to see the probable cause of problems with my code
 ## Testing
 I tested compatability on the following browsers:
 Google Chrome ()
@@ -97,17 +97,16 @@ Screenshots of the responsivness,
 ### Testing user stories
 ###User Stories
  -As a user I want to be able to navigate the site easily
+ tested navbar- pass
  -I want to be able find out when and where it's on
+ List of classes and times on main page - pass
  -I want to be able to sign up for a class
+ sign up form - pass
 
-Test all your user stories, you an create table 
-User Story |  Test | Pass
---- | --- | :---:
-paste here you user story | what is visible to the user and what action they should perform | &check;
-- and attach screenshot
 
 ## Bugs
-List of bugs and how did you fix them
+I had problems with positioning of the club logo on the sign up page. I resolved this by through suggestions on chatGPT and also the Love Running code.  Diffchecker was also used as an aid.
+My Gallery page was very slow to load, using the lighthouse function in google chrome I was able to identify one image in particular was slowing it doen so I removed that image.
 
 ## Deployment
 - Github pages
@@ -136,7 +135,7 @@ List of bugs and how did you fix them
    - Press Enter. Your local clone will be created.
 
    ## Credits
-  I got my code from a number of sources such as the love running project.  I also used resources such as W3Schools and google, along with help from fellow classmates and chatGPT.  I got my main inspiration from the love running project. Content from web sites such as https://archerygb.org/ and images through google searches.
+  I got my code from a number of sources such as the love running project.  I also used resources such as W3Schools, Diffchecker. and google, along with help from fellow classmates and chatGPT.  I got my main inspiration from the love running project. Content from web sites such as https://archerygb.org/ and images through google searches.
 
    ## Acknowledgments
   
