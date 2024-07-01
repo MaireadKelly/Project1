@@ -12,7 +12,10 @@ Love Archery
  -I want to be able to sign up for a class
 
 ### Wireframes
-Attach wireframes in this section
+Wireframes created in balsamiq
+![alt text](assets/images/readmeimages/main-page.png)
+![alt text](assets/images/gallery.png)
+![alt text](assets/images/readmeimages/signup.png)
 
 ### Typography
 I used google font types K2D, Lato and Oswald fonts.  I chose these fontsbecause I find they are easy to read while still being stylish.
@@ -64,9 +67,11 @@ Font Awesome was used on all pages throughout the website to add icons for aesth
  - #### [Git](https://gitpod.io/)
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
   - #### [GitHub](https://github.com/)
+I used balsamiq Cloud to create my wireframe.
 GitHub is used to store the projects code after being pushed from Git.
 ChatGPT was used to help resolve issues arising while styling the gallery in particular
 Diffchecker, was used to help me to see the probable cause of problems with my code
+
 ## Testing
 I tested compatability on the following browsers:
 Google Chrome ()
@@ -106,7 +111,7 @@ Screenshots of the responsivness,
 
 ## Bugs
 I had problems with positioning of the club logo on the sign up page. I resolved this by through suggestions on chatGPT and also the Love Running code.  Diffchecker was also used as an aid.
-My Gallery page was very slow to load, using the lighthouse function in google chrome I was able to identify one image in particular was slowing it doen so I removed that image.
+My Gallery page was very slow to load, using the lighthouse function in google chrome I was able to identify one image in particular was slowing it down so I removed that image.
 
 ## Deployment
 - Github pages
@@ -135,7 +140,7 @@ My Gallery page was very slow to load, using the lighthouse function in google c
    - Press Enter. Your local clone will be created.
 
    ## Credits
-  I got my code from a number of sources such as the love running project.  I also used resources such as W3Schools, Diffchecker. and google, along with help from fellow classmates and chatGPT.  I got my main inspiration from the love running project. Content from web sites such as https://archerygb.org/ and images through google searches.
+  I got my code from a number of sources such as the love running project.  I also used resources such as W3Schools, Diffchecker. and google, along with help from fellow classmates and chatGPT.  I got my main inspiration from the love running project. Content from web sites such as https://archerygb.org/ and images through google searches. 
 
    ## Acknowledgments
   
