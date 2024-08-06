@@ -1,6 +1,6 @@
 Love Archery
 
-![Am i responsive image](../Project1/assets/images/readmeimages/amiresponsive.png)  
+[Am i responsive image](assets/images/readmeimages/amiresponsive.png)  
 
 [Click Here To Visit Live Site]( https://maireadkelly.github.io/Project1/)
 
@@ -13,9 +13,9 @@ Love Archery
 
 ### Wireframes
 Wireframes created in balsamiq
-![alt text](assets/images/readmeimages/main-page.png)
-![alt text](assets/images/gallery.png)
-![alt text](assets/images/readmeimages/signup.png)
+[Main Page](assets/images/readmeimages/main-page.png)
+[Gallery Page](assets/images/gallery.png)
+[Sign Up Page](assets/images/readmeimages/signup.png)
 
 ### Typography
 I used google font types K2D, Lato and Oswald fonts.  I chose these fontsbecause I find they are easy to read while still being stylish.
@@ -112,6 +112,10 @@ Screenshots of the responsivness,
 ## Bugs
 I had problems with positioning of the club logo on the sign up page. I resolved this by through suggestions on chatGPT and also the Love Running code.  Diffchecker was also used as an aid.
 My Gallery page was very slow to load, using the lighthouse function in google chrome I was able to identify one image in particular was slowing it down so I removed that image.
+
+Problem with CSS styles not loading on the sign up page. Issue was resolved by removing "/" on the link 
+[iPhone 12 Pro](<assets/images/readmeimages/styles-bug fixed.png>)
+![alt text](assets/images/readmeimages/bug-styles-fixed.png)
 
 ## Deployment
 - Github pages
